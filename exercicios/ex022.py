@@ -1,0 +1,7 @@
+nomecompleto = input('Digite seu nome completo: ').strip()
+nomeespacos = nomecompleto.count(' ')
+primeironome = nomecompleto.split()
+print(f'O nome completo com todas letras maiúsculas é {nomecompleto.upper()} .')
+print(f'O nome completo com todas letras minúsculas é {nomecompleto.lower()} .')
+print(f'São {len(nomecompleto)} letras inclundo espaços, já sem espaço são {(len(nomecompleto)-nomeespacos)} .')
+print(f'O primeiro nome tem {len(primeironome[0])} letras, sendo o nome {primeironome[0]}.')
